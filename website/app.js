@@ -53,6 +53,7 @@ const getData = async function(url = ''){
 const postData = async function(url = '', data = {}){
   let res = await fetch(url, {
     method: 'POST',
+    mode: 'cors',
     credentials: 'same-origin',
     headers: {
       'Content-Type': 'application/json',
