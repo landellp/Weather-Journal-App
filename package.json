@@ -1,0 +1,30 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "JSON package for Udacity FEND Weather App",
+  "main": "server.js",
+  "scripts": {
+    "test": "true",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/landellp/Weather-Journal-App.git"
+  },
+  "keywords": [
+    "Weather",
+    "Journal",
+    "App"
+  ],
+  "author": "Preston Landell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/landellp/Weather-Journal-App/issues"
+  },
+  "homepage": "https://github.com/landellp/Weather-Journal-App#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
